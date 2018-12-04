@@ -5,7 +5,7 @@ use std::fs::File;
 use std::io;
 
 fn main() -> io::Result<()> {
-    let f = File::open("01-1.input")?;
+    let f = File::open("data/01-1.input")?;
     let reader = BufReader::new(f);    
 
     let mut n = 0;
