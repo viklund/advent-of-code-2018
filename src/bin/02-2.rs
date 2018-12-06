@@ -6,7 +6,7 @@ use std::vec::Vec;
 
 fn main() -> io::Result<()> {
     let f = File::open("data/02-1.input")?;
-    let reader = BufReader::new(f);    
+    let reader = BufReader::new(f);
 
     let mut ids : Vec<Vec<char>> = Vec::new();
     let mut lnum = 0;
